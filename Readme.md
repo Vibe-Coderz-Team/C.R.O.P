@@ -1,5 +1,6 @@
 <div align="center">
   <h1>CAMPUS RESOURCE OPTIMIZER PROTOCOL [C.R.O.P]</h1>
+  <h2>BY : VIBE CODERZ</h2>
   <h3><i>Smart Utilization of Shared Campus Infrastructure</i></h3>
 </div>
 
@@ -14,25 +15,14 @@
 ## 1. PROJECT OVERVIEW
 The **Campus Resource Optimizer Protocol [C.R.O.P]** is an integrated management system designed to address the critical challenges of resource allocation and infrastructure transparency within university environments. The platform facilitates the real-time tracking, prediction, and optimization of both spatial assets (such as laboratories and study rooms) and essential consumable resources (such as LPG and water supplies).
 
-## 2. TEAM IDENTITY: VIBE CODERZ
-<div align="center">
-
-| Name | Role | Identification |
-| :---: | :---: | :---: |
-| **Nilay Gurdasani** | Backend Developer | 25BAI10563 |
-| **Keshav Maheshwari** | Frontend Developer | 25BAI11223 |
-| **Tarun Sengar** | Documentation & Database Management | 25BAI11119 |
-
-</div>
-
-## 3. PROBLEM ANALYSIS
+## 2. PROBLEM ANALYSIS
 Contemporary campus management often suffers from fragmented data and lack of centralized visibility, leading to several operational inefficiencies:
 
 * **Critical Infrastructure Scarcity**: Geopolitical factors and extreme weather conditions have resulted in unpredictable shortages of **LPG cylinders** and **water supplies**, necessitating real-time level tracking.
 * **Spatial Underutilization**: Libraries and study rooms experience extreme "ghost booking" or overcrowding, particularly during disparate examination schedules across different academic years.
 * **Management Complexity**: New students often face significant confusion regarding resource availability and logistical coordination within the campus ecosystem.
 
-## 4. PROPOSED SOLUTION
+## 3. PROPOSED SOLUTION
 Our solution provides a unified digital library and resource manager where students and administrators can interact with campus infrastructure through a data-driven interface.
 
 ### Core Functionalities:
@@ -41,7 +31,7 @@ Our solution provides a unified digital library and resource manager where stude
 * **Intelligent Booking System**: A conflict-resolution engine that validates time-window requests to prevent overlapping reservations.
 * **Usage Insights Engine**: A predictive model that analyzes historical usage patterns to provide a **Busyness Score (0-100%)** for any given time-slot.
 
-## 5. TECHNICAL ARCHITECTURE
+## 4. TECHNICAL ARCHITECTURE
 The system utilizes a modular, scalable architecture to ensure high performance and low latency.
 
 ```mermaid
@@ -103,13 +93,13 @@ graph TD
 
 </div>
 
-## 6. ROLE-BASED DIFFERENTIATION
+## 5. ROLE-BASED DIFFERENTIATION
 The platform implements distinct visual and functional experiences based on the user's role:
 
 * **Student View**: Optimized for individual productivity. Focuses on personal reservations, study room availability, and receiving high-level alerts regarding critical consumable shortages.
 * **Management/Teacher View**: Optimized for administrative oversight. Provides granular data on resource levels (e.g., exact cylinder counts per hostel block), maintenance controls, and laboratory management.
 
-## 7. API SPECIFICATIONS
+## 6. API SPECIFICATIONS
 The backend exposes several critical endpoints for frontend integration:
 
 <div align="center">
@@ -126,7 +116,7 @@ The backend exposes several critical endpoints for frontend integration:
 
 </div>
 
-## 8. INSTALLATION AND SETUP
+## 7. INSTALLATION AND SETUP
 To deploy the project locally, follow these standardized steps:
 
 ### Backend Configuration:
